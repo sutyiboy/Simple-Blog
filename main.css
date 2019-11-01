@@ -43,11 +43,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* CSS RESET */
 
-* {
-	box-sizing: border-box;
-}
 
 .header {
   background-color: rgba(255, 248, 53, .3);
@@ -62,6 +58,10 @@ table {
 }
 
 /* ==== BASE STYLES ==== */
+
+* {
+	box-sizing: border-box;
+}
 
 body {
   font-family: 'Muli', 'Times New Roman', serif;
