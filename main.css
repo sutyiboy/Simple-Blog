@@ -45,6 +45,9 @@ table {
 }
 /* CSS RESET */
 
+* {
+	box-sizing: border-box;
+}
 
 .header {
   background-color: rgba(255, 248, 53, .3);
@@ -90,5 +93,6 @@ h2 {
 .picture {
   width: 100%;
 }
+
 
 
