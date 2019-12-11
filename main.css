@@ -121,6 +121,49 @@ img,
 	background-color: #42444e;
 }
 
+@media (min-width: 768px) {
+
+	.header {
+			position: fixed;
+			top: 0;
+			height: 100%;
+			width: 33.3%;
+		max-width: 15rem;
+		}
+
+}
+
+@media (min-width: 1025px) {
+
+	.header {
+		width: 20.625%;
+	}
+
+}
+
+/* Primary Content Wrapper Styles */
+
+@media (min-width: 768px) {
+
+	.content {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.content {
+		float: none;
+		position: absolute;
+    left: 20.625%;
+		min-width: 60%;
+	}
+
+}
+
 /* Article Styles */
 
 .post {
